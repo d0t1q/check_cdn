@@ -6,7 +6,7 @@ import time
 import argparse
 
 # List of known CDN company names
-CDNS = ['Akamai', 'Amazon CloudFront', 'Cloudflare', 'Microsoft Azure', 'Google Cloud', 'AWS', 'Amazon', 'azure', 'microsoft', 'linode' ]
+CDNS = ['Akamai', 'Amazon CloudFront', 'Cloudflare', 'Google Cloud', 'AWS', 'Amazon', 'azure', 'microsoft', 'linode' ]
 
 def read_ips_from_file(filename):
     """Read IP addresses from a file, remove '[.]' if it exists"""
