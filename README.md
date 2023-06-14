@@ -21,7 +21,9 @@ IP List File Formatting
 
 The IP addresses to be checked should be placed in a text file, with one IP address per line. For example:
 
-`192.0.2.1 203.0.113.2 198.51.100.3`
+```192.0.2.1 
+203.0.113.2 
+198.51.100.3```
 
 No additional formatting is required. The script will read the file line by line and treat each line as a separate IP address to check.
 
